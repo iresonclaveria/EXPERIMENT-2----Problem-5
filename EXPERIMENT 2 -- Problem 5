@@ -1,0 +1,25 @@
+#include <conio.h>
+#include <iostream>
+using namespace std;
+int main()
+{
+    int Number = 1, Other_Number = 1;
+    
+    while (Number <=30)
+    {
+        cout<<Number;
+        Number = Number + Other_Number;
+        
+        if (Number >=10)
+        {
+            Other_Number = 2;
+        }
+        
+        if (Number <=30)
+        {
+            cout<<",";
+        }
+    }
+_getch();
+return 0;
+}
